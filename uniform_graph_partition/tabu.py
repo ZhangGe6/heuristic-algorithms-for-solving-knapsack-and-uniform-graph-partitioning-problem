@@ -63,9 +63,9 @@ class TabuSearch:
             print("cur cost {}, find minimum neighbor value {}".format(cur_solution_cost, neighbor_min_value))
             
 
-            if neighbor_min_value < cur_solution_cost:
-                cur_solution = best_feasible_neighbor
-                self.graph.set_group(cur_solution)
+            # if neighbor_min_value < cur_solution_cost:
+            cur_solution = best_feasible_neighbor
+            self.graph.set_group(cur_solution)
             self.updateMemory(cur_solution)
 
 if __name__ == "__main__":
