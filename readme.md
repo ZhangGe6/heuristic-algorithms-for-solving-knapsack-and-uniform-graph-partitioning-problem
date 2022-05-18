@@ -1,6 +1,6 @@
 # heuristic algrithms for solving knapsack and uniform graph partitioning problem
 
-This repo implements two heuristic algrithms, Simulated Annealing and Tanbu algrithm, to solve knapsack and uniform graph partitioning problem. 
+This repo implements two heuristic algrithms, Simulated Annealing and Tanbu algorithm, to solve knapsack and uniform graph partitioning problems, respectively. 
 
 Take the knapsack problem for example, you can choose one method between 'brute', 'SimulatedAnnealing' and 'TabuSearch' for solving the problem. 
 
